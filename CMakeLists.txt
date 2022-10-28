@@ -9,7 +9,7 @@ add_subdirectory(test)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 
-add_executable(Tarea2Datos2 main.cpp)
+add_executable(Tarea2Datos2 convert_to_binary_check.cpp read_binary_check.cpp)
 target_link_libraries(Tarea2Datos2
         gtest
         gtest_main
