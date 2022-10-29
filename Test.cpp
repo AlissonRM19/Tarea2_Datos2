@@ -9,7 +9,7 @@ using namespace std;
 #include "gtest/gtest.h"
 
 
-TEST(convert_to_binary_check, Prueba1){
+TEST(Test, Prueba1){
 
     //Prueba 1 de tools.cpp
     //Para la funcion Tools::SimpleSmooth(const QImage &origin)
